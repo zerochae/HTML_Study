@@ -1,0 +1,121 @@
+div {
+    /* border : 1px solid black; */
+    border-radius: 10px;
+    padding : 10px;
+    margin : 10px;
+    box-sizing : border-box; /* border-box 일때 계산되는 영역은 content+padding+border까지만 */
+ }
+ #header1 {
+    width : 100%;
+    height : 100px;
+ }
+
+ ul{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     background-color: #333;
+ }
+ ul::after{
+     content: '';
+     display: block;
+     clear: both;
+ }
+ li{
+     float: left;
+ }
+ li a{
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 22px 30px;
+     text-decoration: none;
+     font-size: 20px;
+     font-weight: 900;
+ }
+ li a:hover:not(.active) {
+     background-color: #111;
+ }
+ .active {
+     background-color: #4caf50;
+ }
+
+ #header2 {
+    width : 100%;
+    height : 200px;
+    background-color: azure;
+    font-size: 100px;
+    text-align: center;
+;
+ }
+img.mint_logo{
+    animation: rotate_image 10s linear infinite;
+}
+@keyframes rotate_image {
+    100% {
+        transform: rotateY(1080deg);
+    }
+}
+
+
+.btn{
+    width: 100%;
+    cursor:pointer
+    
+}
+.nomint{
+    min-width: auto;
+    max-width: 70%;
+
+    
+}
+ 
+ #nav {
+    width : calc(30% - 20px);
+    height : 500px;
+    background-color: thistle;
+    float : left;
+    font-size: 35px;
+    color: red;
+    font-weight:500;
+ }
+ #content2{
+    width : calc(35% - 20px);
+    height : 500px;
+    background-color: antiquewhite;
+    float : right;
+    text-align: center;
+    font-size: 20px;
+ }
+ #content1{
+    width : calc(35% - 20px);
+    height : 500px;
+    background-color: blanchedalmond;
+    float : right;
+    text-align: center;
+    overflow:scroll;
+    height: 500px;
+
+    
+ }
+
+ .box1 {
+     width: 40px;
+     
+ }
+ .box2 {
+    cursor:pointer
+ }
+ .photo {
+     width: 150px;
+     height: 150px;
+     text-align: center;
+ }
+
+ #footer {
+    width : 100%;
+    height : 20px;
+    background-color: yellowgreen;
+    padding: 20px;
+    clear : both;
+ }
