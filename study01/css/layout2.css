@@ -1,0 +1,47 @@
+.container{
+    width: 100%;
+    height: 400px;
+    background-color: dimgray;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left{
+    width: 85%;
+    height: 400px;
+    background-color: dodgerblue;
+    float: left;
+}
+.right{
+    width: 15%;
+    height: 400px;
+    background-color: firebrick;
+    float: left;
+}
+
+.profile{
+    width: 100%;
+    height: 30%;
+    background-color: forestgreen;
+
+}
+
+.board{
+    width: 100%;
+    height: 70%;
+    background-color: goldenrod;
+    clear: both;
+}
+.blog-name{
+    float: left;
+}
+
+.blog-profile{
+    float: left;
+}
+
+.blog-content{
+
+}
+
+.image{
+}
