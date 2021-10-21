@@ -1,0 +1,12 @@
+.nav-item{
+    margin-right: 5px;
+}
+
+.nav-container{
+    display: flex;
+    height: 100px;
+    background-color: cornflowerblue;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
