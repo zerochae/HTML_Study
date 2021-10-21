@@ -1,0 +1,44 @@
+.cart-background {
+  width: 100%;
+  background: #c2d3de;
+  padding: 30px;
+}
+.cart-table {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+}
+
+.cart-table td {
+  padding: 15px;
+  border-bottom: 1px solid #c2d3de;
+  
+}
+.cell-long{
+    width: 700px;
+}
+
+.cart-table th:nth-child(2){
+
+}
+.btn{
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: chocolate;
+}
+.btn:active{
+    background-color: cornflowerblue;
+}
+.btn:focus{
+    background-color: crimson;
+}

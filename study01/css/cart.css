@@ -1,0 +1,49 @@
+body{
+    background-color: lightblue;
+}
+
+tr{
+    border: 1px solid black ;
+    
+}
+table{
+    width: 700px;
+    height: 300px;
+    border-collapse: collapse;
+    border-style: hidden;
+    background-color: #F9F9F9;
+
+}
+
+td p{
+    text-align: left;
+}
+
+td{
+    text-align: center;
+}
+
+.table-box{
+    width: 700px;
+    height: 600px;
+    margin : 50px;
+}
+
+.btn{
+    color: white;
+    border-style: none;
+    background-color: darkcyan;
+    float: right;
+    width: 200px;
+    height: 50px;
+}
+
+.table-box-foot{
+    margin-top: 20px;
+}
+
+.table-box-foot a{
+    text-decoration: none;
+    color: darkcyan;
+    
+}
