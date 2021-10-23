@@ -1,3 +1,6 @@
+main-container{
+}
+
 .container{
     max-width: 1000px;
     width: 80%;
@@ -16,6 +19,40 @@
     clear: both;
 }
 
+.container i{
+    background-color: burlywood;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 20px;
+
+}
+
+.shop-bg{
+    background-color: #eee;
+    padding:20px;
+    display: flex;
+    width: 100%;
+}
+
+.shop-container{
+    display: flex;
+    width: 90%;
+    margin:auto;
+}
+.shop-item{
+    width: 33%;
+    padding:10px;
+
+}
+.shop-item img{
+    width:100%;
+
+}
+
 @media screen and (max-width : 768px){
     
     .container div{
@@ -29,14 +66,3 @@
     }
 }
 
-.container i{
-    background-color: burlywood;
-    border-radius: 50px;
-    width: 100px;
-    height: 100px;
-    padding-top: 25px;
-    box-sizing: border-box;
-    color: white;
-    margin-top: 20px;
-
-}
