@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .ani-text {
+      text-align: center;
+    }
+    .ani-text:hover {
+      animation: 왔다갔다;
+      animation-duration: 0.2s;
+    }
+    @keyframes 왔다갔다 {
+      0% {
+        transform: translateY(0px);
+      }
+      30% {
+        transform: rotate(20deg);
+      }
+      70% {
+        transform: rotate(-20deg);
+      }
+      100% {
+        transform: rotate(0deg);
+      }
+    }
+
+    .xbtn:hover {
+      animation: xbutton;
+      animation-duration: 1s;
+    }
+
+    @keyframes xbutton {
+      0% {
+        transform: rotate(0deg);
+      }
+      25% {
+        transform: rotate(-15deg);
+      }
+      100% {
+        transform: rotate(45deg);
+      }
+    }
+
+    .ani-x {
+      margin: 150px auto;
+      text-align: center;
+      font-size: 70px;
+      width: 84px;
+      cursor: pointer;
+    }
+
+    .ani-x:hover {
+      animation-name: turn;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes turn {
+      0% {
+        transform: rotate(0deg);
+      }
+      25% {
+        transform: rotate(-15deg);
+      }
+      100% {
+        transform: rotate(45deg) scale(1.5);
+      }
+    }
+
+    .ani-navbar {
+      width: 200px;
+      background: black;
+      color: white;
+      height: 100%;
+      padding: 25px;
+      position: fixed;
+      z-index: 5;
+      text-align: right;
+      transition: all 1s;
+      transform: translateX(-150px);
+    }
+    .ani-navbar:hover {
+      transform: translateX(0px);
+      text-align: center;
+    }
+
+    @keyframes slide {
+      0% {
+        transform: translateX(-250px);
+      }
+      50% {
+        transform: translateX(50px) skewX(-30deg);
+      }
+      100% {
+        transform: translateX(0px);
+      }
+    }
+
+    .ani-navbar:hover p {
+      animation-name: slide;
+      animation-duration: 1s;
+    }
+  </style>
+  <body>
+    <h4 class="ani-text">안ㅁㅇㄻㅇㄴㄻㄴㅇㄻㄴㅇㄹ녕하세요</h4>
+    <button class="ani-text">흔들버튼</button>
+
+    <div class="ani-x">+</div>
+
+    <nav class="ani-navbar">
+      <h4>Menu</h4>
+      <p>Item</p>
+    </nav>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+body{
+  margin:0;
+}
+
+h1,h2,h3,h4,h5,span,p{
+  transform: rotate(0.04deg);
+}
+
+.sidebar{
+  width: 150px;
+  height: 100vh;
+  background-color: #484bb3;
+  position: fixed;
+  z-index: 5;
+  color:white;
+  transform: translateX(-100px);
+  transition: all 1s;
+}
+
+.sidebar:hover{
+
+  transition: all 1s;
+  transform: translateX(0px);
+
+}
+
+.sidebar div{
+  margin : 12px 0px 0px 15px; 
+}
+
+.content{
+  margin-left: 150px;
+}
+
+.sidebar i {
+  transition: all 1s;
+  transform: translateX(100px);
+}
+
+.sidebar:hover i{
+  transition: all 1s;
+  transform: translateX(0px);
+}
+
+.nav-link{
+  position: relative;
+}
+
+.badge{
+  position:absolute;
+  top:0px;
+  left:15px;
+}
+
+.navbar form{
+  margin-left: 140px;
+}
